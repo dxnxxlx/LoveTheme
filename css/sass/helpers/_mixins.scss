@@ -1,0 +1,15 @@
+@mixin font($size){
+	font-size: $size;
+
+}
+
+@mixin container{
+	width: 90%;
+}
+
+@mixin width100{
+	width: 100%;
+}
+
+
+@include font(15px);
