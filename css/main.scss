@@ -1,6 +1,7 @@
-@import "sass/helpers/_helpers";
-@import "sass/helpers/_mixins";
 @import "sass/helpers/_variables";
+@import "sass/helpers/_extends";
+@import "sass/helpers/_mixins";
+@import "sass/helpers/_helpers";
 @import "sass/base/_fonts";
 @import "sass/base/_base";
 @import "sass/layout/_header";
@@ -11,6 +12,7 @@
 @import "sass/pages/_contact";
 @import "sass/pages/_home";
 @import "sass/pages/_portfolio";
+
 
 
 

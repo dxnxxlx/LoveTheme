@@ -1,3 +1,17 @@
+/*
+%: ;
+$:;
+$:;
+$:;
+$:;
+$:;
+*/
+/*@mixin font ($size){
+	font-size: $size;
+	font-weight: $size;
+}
+
+@include font(15px);*/
 .fix {
   overflow: hidden; }
 
@@ -7,13 +21,18 @@
 .floatright {
   float: right; }
 
-/*
-%: ;
-$:;
-$:;
-$:;
-$:;
-$:;
-*/
+@font-face {
+  font-family: 'Bebas';
+  src: url("../font/bebas___-webfont.eot?") format("eot"), url("../font/bebas___-webfont.woff") format("woff"), url("../font/bebas___-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../font/HelveticaNeue.eot?") format("eot"), url("../font/HelveticaNeue.woff") format("woff"), url("../font/HelveticaNeue.ttf") format("truetype"); }
+body {
+  font-family: "Bebas"; }
+
+.header_area .header {
+  margin: 0 auto; }
+.header_area img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

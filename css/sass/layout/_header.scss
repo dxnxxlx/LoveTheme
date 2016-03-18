@@ -1,7 +1,7 @@
 .header_area{
 	.header{
 		margin: 0 auto;
-		@include container;
+		;
 		
 
 	}
@@ -12,5 +12,11 @@
 
 	}
 
+	img{
+		@include width100;
+	}
+
 }
+
+
 
